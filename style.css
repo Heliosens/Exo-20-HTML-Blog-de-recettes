@@ -4,10 +4,14 @@
     box-sizing: border-box;
 }
 
-#container {
+body {
     width: 100%;
     background-image: url("citrouilles.jpg");
     background-size: cover;
+}
+
+a {
+    color: white;
 }
 
 h1 {
@@ -23,6 +27,7 @@ h1, footer {
     width: 33%;
     display: inline-block;
     vertical-align: top;
+
 }
 
 .side {
@@ -33,20 +38,16 @@ h1, footer {
     text-align: center;
 }
 
-h2 {
-    margin: 20px 0;
-}
-
-.part > div, nav {
+.part > div, #menu {
     margin: auto;
-    width: 280px;
-    height: 280px;
-    background: black;
+    width: 60%;
     color: white;
+    background: black;
 }
 
 nav {
     text-align: center;
+    /*background: black;*/
 }
 
 #menu {
@@ -67,7 +68,7 @@ footer div {
 }
 
 .part img {
-    width: 200px;
+    width: 15vw;
     height: auto;
     margin: 20px auto;
 }
@@ -76,33 +77,44 @@ footer {
     border-top: red 3px solid;
 }
 /*page 1*/
-.picture img {
-    width: 300px;
+.half {
+
+    width: 49.5%;
+    display: inline-block;
 }
 
-.picture {
+.show {
+    width: 280px;
+    margin: 20px;
+}
+
+.left {
     text-align: center;
-    background: black;
 }
 
-.step{
-    height: 150px;
+.right {
+    padding: 0 20px;
+    vertical-align: top;
 }
 
 /*time*/
-table {
-    border: 1px black solid;
-}
 
-th, td {
-    border-bottom: 1px red solid;
-}
-
-.half {
-    width: 49.5%;
-    display: inline-block;
-    vertical-align: top;
-
+.recipe, .right {
     color: white;
-    text-align: left;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*page 2*/
+li img {
+    width: 5vw;
+    height: auto;
+}
+
+.bottom .part{
+    border-top: red 3px solid;
+    background: orange;
+}
+
+.link {
+    background: rgba(0, 0, 0, 0.8);
 }
