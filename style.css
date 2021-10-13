@@ -4,18 +4,32 @@
     box-sizing: border-box;
 }
 
-body {
+#container {
     width: 100%;
+    background-image: url("citrouilles.jpg");
+    background-size: cover;
 }
 
 h1 {
-    margin-left: 50px;
-    border-bottom: 3px solid;
+    border-bottom: 3px solid red;
+    color: white;
+}
+
+h1, footer {
+    background: #00000087;
 }
 
 .part {
-    width: 30%;
+    width: 33%;
     display: inline-block;
+    vertical-align: top;
+}
+
+.side {
+    text-align: center;
+}
+
+.middle {
     text-align: center;
 }
 
@@ -23,28 +37,59 @@ h2 {
     margin: 20px 0;
 }
 
+.part > div, nav {
+    margin: auto;
+    width: 280px;
+    height: 280px;
+    background: black;
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+#menu {
+    padding-top: 20px;
+}
+
+#menu div {
+    margin: 5px;
+    padding: 10px 0;
+    background: orange;
+}
+
+footer div {
+    padding: 10px 20px;
+    background: orange;
+    width: 25%;
+    margin: auto;
+}
+
 .part img {
     width: 200px;
     height: auto;
+    margin: 20px auto;
 }
 
-.page1 img {
+footer {
+    border-top: red 3px solid;
+}
+/*page 1*/
+.picture img {
     width: 300px;
 }
 
-.half {
-    width: 49%;
-    display: inline-block;
-}
-
-.infos {
-    vertical-align: top;
+.picture {
+    text-align: center;
+    background: black;
 }
 
 .step{
     height: 150px;
 }
 
+/*time*/
 table {
     border: 1px black solid;
 }
@@ -53,8 +98,11 @@ th, td {
     border-bottom: 1px red solid;
 }
 
-footer {
-    border-top: black 3px solid;
-    margin-top: 20px;
-    text-align: center;
+.half {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+
+    color: white;
+    text-align: left;
 }
