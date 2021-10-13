@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <title>Cocktail de pomme empoisonnée</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 style="color: limegreen; border-bottom:3px limegreen solid">Cocktail de pomme empoisonnée</h1>
+        <h1>Cocktail de pomme empoisonnée</h1>
     </header>
-    <div style="background: limegreen">
-        <div>
+    <article class="page1">
+        <div class="half">
+            <img src="recette1/cocktail-pomme.jpg" alt="cocktail vert avec fumée">
+        </div>
+
+        <div class="half infos">
             <!-- ingredients list-->
             <h2>Ingrédients :</h2>
             <ul>
@@ -20,48 +25,45 @@
             </ul>
 
             <!-- tools list-->
-            <h2>Ustensils :</h2>
+            <h2>Ustensiles :</h2>
             <ul>
                 <li>verre à pied</li>
                 <li>shaker</li>
             </ul>
+
+            <!-- time -->
+            <div>
+                <h2>Temps :</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>préparation</th>
+                            <th>cuisson</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5 min</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
-        <div>
-            <img src="recette1/cocktail-pomme.jpg" alt="cocktail vert avec fumée" width="200">
-        </div>
-    </div>
+    </article>
 
     <div>
         <!-- step by step table with pictures -->
-        <div>
+        <div class="step">
             <h2>Recette :</h2>
             <p>Mélanger la vodka, la liqueur et la glace dans le shaker</p>
             <p>Fermer le shaker et mélanger pendant 30 secondes</p>
             <p>Servir dans vos plus beaux verres à poison</p>
         </div>
-
-        <!-- time table -->
-        <div>
-            <h2>Temps :</h2>
-            <table style="text-align: center" border="1">
-                <thead>
-                    <tr>
-                        <th>préparation</th>
-                        <th>cuisson</th>
-                    </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>5 min</td>
-                    <td>-</td>
-                </tr>
-                </tbody>
-            </table>
-        </div>
     </div>
 
-    <nav style="text-align: center">
+    <nav>
         <h2>
             <a href="index.html">menu</a><br>
         </h2>
@@ -73,11 +75,10 @@
         <a href="page_5.html">Cupcakes cerveaux</a><br>
         <a href="contact.html" target="_blank">contact</a><br>
     </nav>
-    <hr>
-    <footer style="text-align: center">
+    <footer>
         <!-- previous   next -->
-        <a href="index.html" style="padding: 10px">retour au menu</a>
-        <a href="page_2.html" style="padding: 10px">recette suivante</a>
+        <a href="index.html">retour au menu</a>
+        <a href="page_2.html">recette suivante</a>
     </footer>
 </body>
 </html>
