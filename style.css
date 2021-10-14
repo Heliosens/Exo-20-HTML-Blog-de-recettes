@@ -17,6 +17,15 @@ html {
 
 a {
     color: white;
+    text-decoration-line: none;
+}
+
+a:hover {
+    color: lightgreen;
+}
+
+a > img:hover {
+    border: 2px solid lightgreen;
 }
 
 h1 {
