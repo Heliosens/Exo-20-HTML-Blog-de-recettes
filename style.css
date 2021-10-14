@@ -34,11 +34,7 @@ h1, footer {
     vertical-align: top;
 }
 
-.side {
-    text-align: center;
-}
-
-.middle {
+.side, .middle {
     text-align: center;
 }
 
@@ -100,7 +96,6 @@ footer {
 .dark div {
     background: rgba(221, 9, 9, 0.8);
     color: white;
-
 }
 
 .show {
@@ -148,4 +143,10 @@ article {
 
 #contact {
     float: right;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 2vh;
 }

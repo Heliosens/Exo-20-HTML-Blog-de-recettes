@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div>
@@ -10,30 +11,46 @@
         <!-- img -->
     </div>
 
-    <div>
-        <!-- ask form by mail -->
-        <form action="incantation.php" method="post">
-
-        </form>
+    <div class="middle">
+        <div id="menu">
+            <!-- ask form by mail -->
+            <form action="incantation.php" method="post">
+                <div>
+                    <label for="name">votre nom :</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="mail">votre e-mail :</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+                <div>
+                    <textarea name="comment" id="comment" cols="30" rows="10">votre question :</textarea>
+                </div>
+            </form>
+        </div>
     </div>
 
-    <nav style="text-align: center">
-        <h2>
-            <a href="index.html">menu</a><br>
-        </h2>
-        <!-- menu with pictures -->
-        <a href="page_1.html">Cocktail de pomme empoisonnée</a><br>
-        <a href="page_2.html">Cocktail aux yeux</a><br>
-        <a href="page_3.html">Pommes d'amour</a><br>
-        <a href="page_4.html">les doigts coupés</a><br>
-        <a href="page_5.html">Cupcakes cerveaux</a><br>
-        <a href="contact.html" target="_blank">contact</a><br>
+    <nav class="bottom">
+        <div class="part">
+            <a href="page_2.html" style="padding: 10px">recette précédente</a>
+        </div>
+        <div class="part">
+            <!-- previous   next -->
+            <a href="index.html">retour au menu</a>
+        </div>
+        <div class="part">
+            <a href="index.html">Menu</a>
+        </div>
+        <div class="link">
+            <!-- menu -->
+            <a href="page_1.html">Cocktail de pomme empoisonnée</a>
+            <a href="page_2.html">Cocktail aux yeux</a>
+            <a href="page_3.html">Pommes d'amour</a>
+            <a href="page_4.html">les doigts coupés</a>
+            <a href="page_5.html">Cupcakes cerveaux</a>
+            <a href="contact.html" target="_blank">contact</a>
+        </div>
     </nav>
-    <hr>
-    <footer style="text-align: center">
-        <!-- previous   next -->
-        <a href="page_2.html" style="padding: 10px">recette précédente</a>
-        <a href="index.html" style="padding: 10px">retour au menu</a>
-    </footer>
+
 </body>
 </html>
