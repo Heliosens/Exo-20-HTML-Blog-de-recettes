@@ -11,7 +11,7 @@ body {
 }
 
 html {
-    font-family: fantasy;
+    font-family: "Franklin Gothic Medium";
     font-size: 1.5vw;
 }
 
@@ -32,7 +32,6 @@ h1, footer {
     width: 33%;
     display: inline-block;
     vertical-align: top;
-
 }
 
 .side {
@@ -52,7 +51,7 @@ h1, footer {
 
 nav {
     text-align: center;
-    /*background: black;*/
+    padding: 1vh 0;
 }
 
 #menu {
@@ -61,7 +60,7 @@ nav {
 
 #menu div {
     margin: 5px;
-    padding: 10px 0;
+    padding: 0.5vh 0;
     background: orange;
 }
 
@@ -80,11 +79,28 @@ footer div {
 
 footer {
     border-top: red 3px solid;
+    padding: 1vh 0;
 }
 /*page 1*/
 .half {
     width: 49.5%;
     display: inline-block;
+}
+
+.half div {
+    width: 80%;
+    margin: auto;
+}
+
+.dark {
+    background: black;
+    padding: 2vh 1vw;
+}
+
+.dark div {
+    background: rgba(221, 9, 9, 0.8);
+    color: white;
+
 }
 
 .show {
@@ -97,16 +113,11 @@ footer {
 }
 
 .right {
-    padding: 0 20px;
+    padding: 20px 20px;
     vertical-align: top;
 }
 
 /*time*/
-
-.recipe, .right {
-    color: white;
-    background: rgba(0, 0, 0, 0.8);
-}
 
 /*page 2*/
 li img {
@@ -114,11 +125,27 @@ li img {
     height: auto;
 }
 
-.bottom .part{
+.bottom, footer {
+    margin-top: 2vh;
+}
+
+.bottom .part {
     border-top: red 3px solid;
     background: orange;
 }
 
 .link {
-    background: rgba(0, 0, 0, 0.8);
+    margin: 2px;
+}
+
+.link a {
+    background: orange;
+}
+
+article {
+    margin: 5vh 0;
+}
+
+#contact {
+    float: right;
 }
