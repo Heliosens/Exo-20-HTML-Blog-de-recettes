@@ -10,6 +10,11 @@ body {
     background-size: cover;
 }
 
+html {
+    font-family: fantasy;
+    font-size: 1.5vw;
+}
+
 a {
     color: white;
 }
@@ -40,7 +45,7 @@ h1, footer {
 
 .part > div, #menu {
     margin: auto;
-    width: 60%;
+    width: 80%;
     color: white;
     background: black;
 }
@@ -68,7 +73,7 @@ footer div {
 }
 
 .part img {
-    width: 15vw;
+    width: 20vw;
     height: auto;
     margin: 20px auto;
 }
@@ -78,7 +83,6 @@ footer {
 }
 /*page 1*/
 .half {
-
     width: 49.5%;
     display: inline-block;
 }
